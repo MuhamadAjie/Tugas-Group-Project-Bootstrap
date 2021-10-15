@@ -3,7 +3,7 @@
   top: 0;
   position: sticky;
   width: 100%;
-  z-index: 1;
+  z-index: 5;
 }
 
 a img {
@@ -48,54 +48,32 @@ footer {
   margin: 10px;
 }
 
-#pointer a,
-#read,
-.fs-1 span,
-.card-text span {
+#pointer a {
   color: #F47522;
 }
 
 /* Akhir CSS untuk Header dan Footer */
 
-main {
-  margin-bottom: 150px;
-}
-
-.warna-bg {
-  background-color: #EDF6FF;
-  height: 743px;
-  z-index: -10;
-}
-
-.warna-bg img {
-  width: 420px;
-  height: 420px;
-}
-
 p,
-span {
-  font-family: 'Mulish',
+span,
+label {
+  font-family: 'Poppins',
     sans-serif;
 }
 
-#send {
-  background: #F47522;
-  border-radius: 50px;
+td, #calendar {
+  font-family: 'Poppins',
+    sans-serif;
+  color: #19345E;
 }
 
-#send span img {
-  width: 20px;
-  height: 20px;
-  margin-right: 5px;
-}
-
-#latest, #about, #meet {
+#about-team, .fs-3, .fs-4 {
   font-family: 'Mulish',
     sans-serif;
   color: #19345E;
 }
 
-#latest span, #about span, #meet span {
+#about-team span {
   width: 35px;
   height: 4px;
   margin: 30px 15px;
@@ -103,34 +81,36 @@ span {
   border-radius: 2px;
 }
 
-.card-body p {
-  font-family: 'Poppins',
-  sans-serif;
-  color: #707070;
+#batik1 {
+  top: 0;
+  margin-top: 103px;
+  width: 180px;
+  position: absolute;
+  z-index: -1;
+  opacity: 0.8;
 }
 
-.card-text {
-  color: #19345E !important;
+.gambar {
+  width: 320px;
+  height: 360px;
+  margin-left: 30px;
+  position: absolute;
 }
 
-.d-flex a {
-  font-family: 'Poppins',
-  sans-serif;
-  color: #19345E;
+#calendar ul li img {
+  width: 14px;
 }
 
-h5,
-.col-lg p {
-  font-family: 'Roboto',
-  sans-serif;
-  color: #19345E;
+main {
+  margin-bottom: 120px;
 }
 
-#social-media span,
-#copyright p {
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-.offset-1 {
-  margin-top: 80px;
+.border {
+  width: 320px;
+  height: 360px;
+  margin-top: 30px;
+  position: absolute;
+  z-index: 2;
+  border-width: 10px !important;
+  border-color: #F47522 !important;
 }
